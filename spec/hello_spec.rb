@@ -10,7 +10,7 @@ describe "#hello_t" do
   end
 
   it "returns the original array" do
-    expect( hello_t(names){ |name| puts name } )
+    expect( hello_t(names) { |name| puts name } )
       .to eq(names)
   end
 
